@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Erick Caglianone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Switch para Modo Claro/Escuro -->
+    <div class="switch-container">
+        <label class="switch">
+            <input type="checkbox" id="themeSwitch" onclick="toggleTheme()">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <!-- Conteúdo do Currículo -->
+    <div class="container">
+        <header>
+            <h1>Erick Caglianone</h1>
+            <p>Estudante de Engenharia de Computação</p>
+            <p>E-mail: <a href="mailto:ecaglianone@gmail.com">ecaglianone@gmail.com</a> | Telefone: (21) 99056-2526 | Rio de Janeiro-RJ</p>
+            <p><strong>Objetivo profissional:</strong> Análise De Sistemas, Desenvolvimento de Sistemas e Suporte Técnico</p>
+        </header>
+        <section>
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li><strong>Bacharelado em Engenharia da Computação</strong> - Unicarioca<br>Julho de 2023 - Atual (Previsão de término: 2028)</li>
+                <li><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong> - Universidade Veiga de Almeida (UVA)<br>Janeiro de 2022 - Março de 2023</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Cursos e Certificações</h2>
+            <ul>
+                <li><strong>Escola Virtual da Fundação Bradesco</strong><br>Linguagens de Programação: C#, Python, JavaScript<br>Administração de Banco de Dados, HTML</li>
+                <li><strong>Larcerba.io</strong><br>Excel, JavaScript</li>
+                <li><strong>Codecademy</strong><br>SQL (sem certificado)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li><strong>Linguagens de Programação:</strong> Python, C, C++</li>
+                <li><strong>Desenvolvimento Web:</strong> HTML, JavaScript</li>
+                <li><strong>Administração de Banco de Dados:</strong> SQL</li>
+                <li><strong>Ferramentas:</strong> Excel, Sistemas de Gestão de Ordens de Serviço</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li><strong>HBL Conect</strong> - Auxiliar Técnico<br>Junho de 2021 - Junho de 2022<br>Emissão de ordens de serviço, atendimento ao cliente, manutenção de dispositivos eletrônicos, reparos em placas, cadastro no sistema de ordens de serviço.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Projetos Acadêmicos e Atividades Práticas</h2>
+            <ul>
+                <li>Desenvolvimento de scripts e aplicações utilizando Python, C, e C++ para projetos acadêmicos.</li>
+                <li>Experiência prática em resolução de problemas e desenvolvimento de soluções em projetos na Unicarioca e UVA.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Idiomas</h2>
+            <ul>
+                <li><span class="language" onclick="toggleLevel('portugues')">Português</span> <span id="portugues" class="level">Nativo</span></li>
+                <li><span class="language" onclick="toggleLevel('italiano')">Italiano</span> <span id="italiano" class="level">Avançado/Fluente</span></li>
+                <li><span class="language" onclick="toggleLevel('ingles')">Inglês</span> <span id="ingles" class="level">Intermediário (compreensão e leitura técnica)</span></li>
+            </ul>
+        </section>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
